@@ -1,0 +1,21 @@
+name: "📦 Mod Request"
+description: Request a new mod for the pack
+labels: [mod-request]
+body:
+  - type: input
+    id: mod-name
+    attributes:
+      label: Mod Name
+      placeholder: "Mythic Metals, etc."
+    validations:
+      required: true
+  - type: input
+    id: mod-link
+    attributes:
+      label: Modrinth Link
+      placeholder: "https://modrinth.com/mod/..."
+  - type: textarea
+    id: why
+    attributes:
+      label: Why include it?
+      description: Explain why the mod fits the Vanilla+ style

@@ -1,0 +1,21 @@
+name: "💡 Suggestion"
+description: Propose new features or improvements
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What’s your suggestion?
+      description: Describe what you'd like to add or change
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why?
+      description: Why do you think it would improve the pack?
+  - type: input
+    id: related-mod
+    attributes:
+      label: Related Mod (optional)
+      placeholder: "Modrinth link or name"

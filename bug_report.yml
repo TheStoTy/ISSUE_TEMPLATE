@@ -1,0 +1,36 @@
+name: "🐛 Bug Report"
+description: Report a crash, error, or mod conflict
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug or crash in detail
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: List steps that consistently cause the issue
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or Crash Report
+      description: Use Pastebin or Gist if it's too long
+  - type: input
+    id: mc-version
+    attributes:
+      label: Minecraft Version
+      placeholder: "1.21"
+  - type: input
+    id: loader
+    attributes:
+      label: Mod Loader
+      placeholder: "Fabric"
+  - type: input
+    id: launcher
+    attributes:
+      label: Launcher
+      placeholder: "Modrinth / Prism / MultiMC"
